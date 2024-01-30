@@ -1,6 +1,8 @@
 import Navbar from '../src/components/Navbar'
+import Rootlayout from './layout/Rootlayout'
 import SignUp from './pages/SignUp'
 // import './App.css'
+
 
 
 function App() {
@@ -9,6 +11,9 @@ function App() {
     <>
       {/* <Navbar/> */}
       <SignUp/>
+      <Routes>
+      <Route path='layout/*' element={<Rootlayout/>}/>
+    </Routes>
       
     </>
   )
