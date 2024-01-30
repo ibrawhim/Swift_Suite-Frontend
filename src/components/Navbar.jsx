@@ -1,15 +1,17 @@
 import React from 'react'
 import logo from '../Images/mainlogo.svg'
+import {FaBars} from 'react-icons/fa'
+
 
 const Navbar = () => {
   return (
-    <nav className='m-0 lg:ps-10 max-w-full shadow'>
-      <div className='flex  mt-0'>
+    <nav className='m-0 lg:ps-10 max-w-full shadow w-full'>
+      <div className='flex justify-between'>
         <a href="" className=''>
             <img src={logo} alt="" className='w-[196px] h-[88.2px]' />
         </a>
-        <div className='mt-8'>
-            <ul className='flex justify-center items-center lg:flex-row flex-col lg:gap-14 gap-5'>
+        <div className='mt-10 hidden lg:block'>
+            <ul className='flex justify-center items-center  lg:gap-14 gap-5'>
                 <li className='font-semibold'>
                     <a href="">Home</a>
                 </li>
@@ -28,12 +30,15 @@ const Navbar = () => {
                 <li className='font-semibold'>
                     <a href="">Contact</a>
                 </li>
-                <li className='flex lg:gap-12 gap-3'>
-                    <a href="" className='border w-[150px]  py-2 font-semibold text-white text-center bg-[#089451] rounded'>Get Started For Free</a>
-                    <a href="" className='border w-[150px]  py-2 font-semibold border-[#089451] text-center text-[#089451] rounded'>Sign in</a>
-                </li>
             </ul>
         </div>
+        <div className='flex justify-center items-center gap-6 mt-1'>
+            <a href="" className='border w-[150px] font-semibold text-white text-center py-1 bg-[#089451] rounded'>Get Started For Free</a>
+            <a href="" className='border w-[150px] font-semibold border-[#089451] text-center py-1 text-[#089451] rounded'>Sign in</a>
+        </div>
+        <button className='lg:hidden block mt-1 text-green-700 font-bold '>
+            <FaBars className='w-[20px]'/>
+        </button>
         <button>
 
         </button>
