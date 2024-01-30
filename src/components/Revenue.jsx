@@ -97,14 +97,14 @@ const Revenue = () => {
 
     return (
         <div className="col-span-12 rounded-lg border border-stroke bg-white px-5 pt-7.5 pb-5 shadow-default sm:px-7.5">
-            <div className='flex lg:gap-[56%] gap-[37%] mt-10'>
+            <div className='flex lg:gap-[50%] text-sm gap-[37%] mt-10'>
                 <div>
                     <p>Total Revenue</p>
                     <h3 className="text-xl font-bold text-black dark:text-white">
                         $70,000
                     </h3>
                 </div>
-                <div className='flex bg-green-700 p-2 rounded lg:w-[80px] text-white gap-4 h-[40px]'>
+                <div className='flex bg-green-700 p-1 text-sm px-2 rounded lg:w-[65px] text-white gap-3 h-[33px]'>
                     <p>2024</p>
                     <p className='mt-1'><FaCaretDown/></p>
                 </div>

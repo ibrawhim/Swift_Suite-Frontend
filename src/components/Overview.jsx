@@ -6,15 +6,16 @@ const Overview = () => {
   const kidsPercentage = 20;
 
   return (
-    <section className=' rounded-lg p-5 h-screen bg-white shadow-lg'>
+    <section className=' rounded-lg p-5 h-[100%] lg:h-[70%] bg-white shadow-lg'>
     <div style={{ marginRight: '20px', position: 'relative' }}>
       <p>Stats Overview</p>
       <p>Information about store visits</p>
       <div style={{ justifyContent: 'center', padding: '20px' }}>
-          <div
+      <h1>Women</h1>
+          <div className='lg:w-[200px] w-[200px]'
             style={{
               height: '20px',
-              width: '400px',
+              
               backgroundColor: 'gray',
               margin: '2px',
               borderRadius: '10px',
@@ -23,10 +24,10 @@ const Overview = () => {
               top: '100px',
             }}
           ></div>
-          <div
+          <div className='lg:w-20 w-[100px]'
             style={{
               height: '20px',
-              width: `${womenPercentage}%`,
+             
               backgroundColor: 'green',
               margin: '2px',
               borderRadius: '10px',
@@ -36,11 +37,11 @@ const Overview = () => {
             }}
           ></div>
 
-          {/* Men */}
-          <div
+          <h1 className='mt-10'>Men</h1>
+          <div className='lg:w-[200px] w-[200px]'
             style={{
               height: '20px',
-              width: '300px',
+              
               backgroundColor: 'gray',
               margin: '2px',
               borderRadius: '10px',
@@ -49,10 +50,10 @@ const Overview = () => {
               top: '150px',
             }}
           ></div>
-          <div
+          <div className='lg:w-20 w-[100px]'
             style={{
               height: '20px',
-              width: `${menPercentage}%`,
+              
               backgroundColor: 'orange',
               margin: '2px',
               borderRadius: '10px',
@@ -62,11 +63,11 @@ const Overview = () => {
             }}
           ></div>
 
-          {/* Kids */}
-          <div
+          <h1 className='mt-5'>Kids</h1>
+          <div className='lg:w-[200px] w-[200px]'
             style={{
               height: '20px',
-              width: '300px',
+             
               backgroundColor: 'gray',
               margin: '2px',
               borderRadius: '10px',
@@ -75,10 +76,10 @@ const Overview = () => {
               top: '200px',
             }}
           ></div>
-          <div
+          <div className='lg:w-20 w-[100px]'
             style={{
               height: '20px',
-              width: `${kidsPercentage}%`,
+              
               backgroundColor: 'green',
               margin: '2px',
               borderRadius: '10px',

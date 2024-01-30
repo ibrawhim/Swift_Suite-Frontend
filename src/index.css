@@ -5,11 +5,9 @@
 
 
 
-body{
-    background-color: rgb(209, 250, 229)
-  }
-  
-  
+
+
+
   
   @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
    
@@ -39,21 +37,8 @@ body{
   
   
   
-  /* Your existing styles for Dashboard component */
-  /* Add any additional styling as needed */
   
-  /* Your existing styles for Dashboard component */
-  /* Add any additional styling as needed */
-  
-  /* Responsive styles */
-  @media (min-width: 768px) {
-    .grid {
-      grid-template-columns: repeat(2, 1fr);
+  body{
+      background-color: rgb(209, 250, 229)
     }
-  }
-  
-  @media (min-width: 992px) {
-    .grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
+    
