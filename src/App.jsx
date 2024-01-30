@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import Navbar from '../src/components/Navbar'
 import Rootlayout from './layout/Rootlayout'
 import SignUp from './pages/SignUp'
-// import './App.css'
+import './App.css'
 
 
 
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      {/* <Navbar/> */}
+      
    
       <Routes>
       <Route path='/signup' element={<SignUp/>}/>
