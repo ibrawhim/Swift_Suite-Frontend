@@ -6,6 +6,8 @@ import './App.css'
 
 
 
+
+
 function App() {
 
   return (
@@ -17,6 +19,9 @@ function App() {
       <Route path='layout/*' element={<Rootlayout/>}/>
     </Routes>
       
+      <Routes>
+        <Route path='/'  element={<SignUp/>}/>
+      </Routes>
     </>
   )
 }
