@@ -1,9 +1,0 @@
-import React from 'react'
-
-const Authentication = () => {
-  return (
-    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsum provident dolorem similique tempore debitis cum tenetur blanditiis iusto error, maxime corporis beatae excepturi, a nulla nisi, ipsam molestiae eius iure illo nesciunt asperiores sed? Repellendus, dignissimos ut rerum similique, velit illo non natus, reprehenderit molestias autem nostrum? Impedit velit eum, iure minima cum, aut nihil culpa fuga asperiores itaque a excepturi architecto. Sequi illo quasi expedita iste accusamus, vitae dicta laborum aspernatur eos quis, adipisci ratione modi officiis minus assumenda quia molestias eius nam! Pariatur officiis doloribus, corporis, mollitia ipsum aliquam voluptate quasi corrupti, nihil voluptatum sed quae. Rem qui voluptate, culpa cupiditate molestiae consectetur omnis sed nemo maiores ducimus, neque, cum ex expedita esse minus adipisci. Laborum, reprehenderit doloribus nisi recusandae consequatur similique placeat saepe amet eos corporis repudiandae iure sint libero laudantium, exercitationem odio! A possimus, natus sequi voluptatem accusamus minus nostrum dolorem facere quam odit veritatis odio nobis rerum ducimus iste nemo beatae voluptate fuga officia recusandae eveniet. Placeat doloremque rerum soluta amet laboriosam ipsam exercitationem, voluptate error? Aspernatur saepe eius optio nemo eos, temporibus totam laudantium repellat vel et iusto laborum sapiente alias dolorem molestiae eveniet asperiores cupiditate voluptate quae debitis. Natus dolor atque ab.</div>
-  )
-}
-
-export default Authentication

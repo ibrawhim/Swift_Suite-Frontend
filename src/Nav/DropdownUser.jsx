@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-
-// import UserOne from '../images/user/user-01.png';
-import avatar2 from '../assets/image/avatar2.png'
+import avatar2 from '../Images/avatar2.png'
 
 const DropdownUser = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

@@ -12,7 +12,7 @@ import { TbReportAnalytics } from "react-icons/tb";
 import { RiBuilding3Line, RiProductHuntFill } from "react-icons/ri";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { MdVerticalDistribute } from "react-icons/md";
-import swift from '../assets/image/swift.png'
+import swift from '../Images/swift.png'
 import { AppContext } from "../context/Dashboard";
 
 const Sidebar = () => {

@@ -1,10 +1,10 @@
 import React from 'react';
-import Revenue from '../component/Revenue';
-import Currentcustomer from '../Customers/Currentcustomer.jsx.jsx';
+import Revenue from '../components/Revenue';
+// import Currentcustomer from '../Customers/Currentcustomer.jsx.jsx';
 import Newcustomer from '../Customers/Newcustomer.jsx';
 import Retargetcustomer from '../Customers/Retargetcustomer.jsx';
 import Targetcustomer from '../Customers/Targetcustomer.jsx';
-import Overview from '../component/Overview.jsx';
+import Overview from '../components/Overview.jsx';
 // import Rootlayout from '../layout/Rootlayout.jsx';
 
 
@@ -22,7 +22,7 @@ const Dashboard = () => {
 
           <div className='grid rounded-lg border border-stroke bg-white px-5 pb-5 shadow-default sm:px-7.5 lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-4'>
             <div>
-              <Currentcustomer />
+            <Newcustomer />
               <h3 className='text-center text-sm font-bold'>Current Customers</h3>
             </div>
             <div>
