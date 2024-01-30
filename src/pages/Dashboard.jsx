@@ -15,7 +15,7 @@ const Dashboard = () => {
     <>
 
     
-        <div className='grid lg:grid-cols-2 lg:ms-[20%] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[80%] w-[100%] mt-16 gap-4'>
+        <div className='grid lg:grid-cols-2 lg:ms-[18%] ms-[-20px] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[80%] w-[110%] lg:mt-16 mt-10 gap-4'>
           <div>
             <Revenue />
           </div>
@@ -40,7 +40,7 @@ const Dashboard = () => {
           </div>
 
         </div>
-        <div className='grid lg:grid-cols-2 lg:ms-[20%] md:grid-cols-2 grid-cols-1 p-5 gap-4'>
+        <div className='grid lg:grid-cols-2 lg:ms-[18%] md:grid-cols-2  ms-[-20px] lg:px-10 px-5 lg:w-[80%] w-[110%] grid-cols-1 p-5 gap-4'>
           <div>
             <Revenue />
           </div>

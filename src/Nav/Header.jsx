@@ -23,7 +23,7 @@ const Header = () => {
                     <div className='flex items-center justify-between md:gap-10 gap-6'>
                         <div className='flex items-center md:gap-10 gap-10 lg:ms-0 ms-24'>
                             <Searchinput />
-                            <IoSettingsOutline className='lg:ms-[100px]' size={20} />
+                            <IoSettingsOutline className='lg:ms-[180px]' size={20} />
                             <VscBell size={20} />
                             <DropdownUser />
 

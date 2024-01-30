@@ -7,6 +7,7 @@ import Header from '../Nav/Header'
 import { Route, Routes } from 'react-router-dom'
 // import Home from '../pages/Home'
 import Dashboard from '../pages/Dashboard'
+import Allapp from '../pages/Allapp'
 // import Allapp from '../pages/Allapp'
 // import Authentication from '../pages/Authentication'
 
@@ -35,6 +36,7 @@ const Rootlayout = ({children}) => {
 
         <Routes>
           <Route path='/home' element={<Dashboard/>}/>
+          <Route path='/allapp' element={<Allapp/>}/>
          
         </Routes>
    
