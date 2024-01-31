@@ -104,10 +104,7 @@ const Revenue = () => {
                         $70,000
                     </h3>
                 </div>
-                <div className='flex bg-green-700 p-1 text-sm px-2 rounded lg:w-[65px] text-white gap-3 h-[33px]'>
-                    <p>2024</p>
-                    <p className='mt-1'><FaCaretDown/></p>
-                </div>
+                
             </div>
 
             <div className="mb-2">
