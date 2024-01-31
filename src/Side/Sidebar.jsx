@@ -3,15 +3,15 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 
 // * React icons
-import { IoIosArrowBack } from "react-icons/io";
-import { SlNotebook, SlSettings } from "react-icons/sl";
+import { IoMdHelpCircleOutline } from "react-icons/io";
+import {  SlSettings } from "react-icons/sl";
 import { AiOutlineAppstore } from "react-icons/ai";
-import { BsChat, BsPerson } from "react-icons/bs";
-import { HiOutlineDatabase } from "react-icons/hi";
-import { TbReportAnalytics } from "react-icons/tb";
-import { RiBuilding3Line, RiProductHuntFill } from "react-icons/ri";
-import { Link, NavLink, useLocation } from "react-router-dom";
-import { MdVerticalDistribute } from "react-icons/md";
+import { LiaSignOutAltSolid } from "react-icons/lia";
+import { BiBorderRight } from "react-icons/bi";
+import { TbReport } from "react-icons/tb";
+import {  NavLink, useLocation } from "react-router-dom";
+import { MdOutlineInventory2 } from "react-icons/md";
+import {FaRegAddressBook} from 'react-icons/fa'
 import swift from '../Images/swift.png'
 import { AppContext } from "../context/Dashboard";
 
@@ -91,38 +91,44 @@ const Sidebar = () => {
           <li>
               <NavLink to={"/layout/home"} className="link flex   gap-8  hover:rounded hover:text-black">
                 <AiOutlineAppstore size={23} className="mt-2 min-w-max" />
-                Homepage
+                Dashboard
               </NavLink>
             </li>
             <li>
               <NavLink to={"/layout/allapp"} className="link flex gap-8 hover:text-green-700 ">
-                <AiOutlineAppstore size={23} className="mt-2 min-w-max" />
-                All Apps
+                <FaRegAddressBook size={23} className="mt-2 min-w-max" />
+                Catalogue
               </NavLink>
             </li>
             <li>
               <NavLink to={"/layout/authentication"} className="link flex gap-8 hover:text-green-700">
-                <BsPerson size={23} className="mt-2 min-w-max" />
-                Authentication
+                <MdOutlineInventory2 size={23} className="mt-2 min-w-max" />
+                Inventory
               </NavLink>
             </li>
             <li>
               <NavLink to={"/stroage"} className="link flex gap-8 hover:text-green-700">
-                <HiOutlineDatabase size={23} className="mt-2 min-w-max" />
-                Storage
+                <BiBorderRight size={23} className="mt-2 min-w-max" />
+                Orders
               </NavLink>
             </li>
             {/* test routeless */}
             <li>
               <NavLink to={"/post"} className="link flex gap-8 hover:text-green-700">
-                <SlNotebook size={23} className="mt-2 min-w-max" />
-                Post
+                <TbReport size={23} className="mt-2 min-w-max" />
+                Reports
               </NavLink>
             </li>
             <li>
               <NavLink to={"/product"} className="link flex gap-8 hover:text-green-700">
-                <RiProductHuntFill size={23} className="mt-2 min-w-max" />
-                Product
+                <IoMdHelpCircleOutline size={23} className="mt-2 min-w-max" />
+                Help
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to={"/product"} className="link flex gap-8 hover:text-green-700">
+                <LiaSignOutAltSolid size={23} className="mt-2 min-w-max" />
+                Sign Out
               </NavLink>
             </li>
             

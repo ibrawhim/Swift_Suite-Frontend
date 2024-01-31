@@ -5,6 +5,7 @@ import Newcustomer from '../Customers/Newcustomer.jsx';
 import Retargetcustomer from '../Customers/Retargetcustomer.jsx';
 import Targetcustomer from '../Customers/Targetcustomer.jsx';
 import Overview from '../components/Overview.jsx';
+import Topproduct from '../Customers/Topproduct.jsx';
 // import Rootlayout from '../layout/Rootlayout.jsx';
 
 
@@ -15,7 +16,7 @@ const Dashboard = () => {
     <>
 
     
-        <div className='grid lg:grid-cols-2 lg:ms-[18%] ms-[-20px] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[80%] w-[110%] lg:mt-16 mt-10 gap-4'>
+        <div className='grid lg:grid-cols-2 lg:ms-[15%] ms-[-20px] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[90%] w-[110%] lg:mt-10 mt-10 gap-4'>
           <div>
             <Revenue />
           </div>
@@ -40,9 +41,9 @@ const Dashboard = () => {
           </div>
 
         </div>
-        <div className='grid lg:grid-cols-2 lg:ms-[18%] md:grid-cols-2  ms-[-20px] lg:px-10 px-5 lg:w-[80%] w-[110%] grid-cols-1 p-5 gap-4'>
+        <div className='grid lg:grid-cols-2 lg:ms-[15%] md:grid-cols-2  ms-[-20px] lg:px-10 px-5 lg:w-[90%] w-[110%] grid-cols-1 p-5 gap-4'>
           <div>
-            <Revenue />
+            <Topproduct />
           </div>
           <div>
             <Overview/>
