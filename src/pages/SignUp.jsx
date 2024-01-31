@@ -8,33 +8,33 @@ const SignUp = () => {
         <div>
         <Navbar/>
         </div>
-        <section className=''>
-            <div>
+        <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1  border-4'>
+            <div className='border border-red-500 px-10'>
                 <img src={signImage} alt=""  className='w-[500px] h-[626px]'/>
             </div>
-            <div>
-              <h1>Create an Account</h1>
-              <p>Sign Up</p>
-              <form action="">
-                <div>
-                  <label htmlFor="">Name</label>
-                  <input type="text" placeholder='Jane Doe'/>
+            <div className='border border-red-500 py-20 px-28 '>
+              <h1 className='text-center font-bold text-xl'>Create an Account</h1>
+              <form action="" className=''>
+              <p className='flex my-2 font-bold text-xl'>Sign Up</p>
+                <div className='my-2'>
+                  <label htmlFor="">Name</label><br />
+                  <input type="text" placeholder='Jane Doe' className='py-2 w-full'/>
                 </div>
-                <div>
-                  <label htmlFor="Email">Email</label>
-                  <input type="text" placeholder='jane@gmail.com'/>
+                <div className='my-2'>
+                  <label htmlFor="Email">Email</label><br />
+                  <input type="text" placeholder='jane@gmail.com' className='py-2 w-full'/>
                 </div>
-                <div>
-                  <label htmlFor="">Username</label>
-                  <input type="text" placeholder='jane123'/>
+                <div className='my-2'>
+                  <label htmlFor="">Username</label><br />
+                  <input type="text" placeholder='jane123' className='py-2 w-full'/>
                 </div>
-                <div>
-                  <label htmlFor="">Password</label>
-                  <input type="text" placeholder='********'/>
+                <div className='my-2'>
+                  <label htmlFor="">Password</label><br />
+                  <input type="text" placeholder='********' className='py-2 w-full'/>
                 </div>
-                <div>
-                  <label htmlFor="">Confirm Password</label>
-                  <input type="text" placeholder='********'/>
+                <div className='my-2'>
+                  <label htmlFor="">Confirm Password</label><br />
+                  <input type="text" placeholder='********' className='py-2 w-full'/>
                 </div>
               </form>
             </div>

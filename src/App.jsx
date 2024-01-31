@@ -15,15 +15,17 @@ function App() {
       
    
       <Routes>
+
       <Route path='/loader'  element={<SignUp/>}/>
+
+        <Route path='/signup'  element={<SignUp/>}/>
+      {/* <Route path='/signup' element={<SignUp/>}/> */}
+
       <Route path='layout/*' element={<Rootlayout/>}/>
       <Route path="*" element={<ErrorPage/>}/>
 
     </Routes>
       
-      <Routes>
-        <Route path='/'  element={<SignUp/>}/>
-      </Routes>
     </>
   )
 }
