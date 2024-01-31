@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Rootlayout from './layout/Rootlayout'
 import SignUp from './pages/SignUp'
-import './App.css'
+// import './App.css'
 import ErrorPage from './pages/Errorpage'
 
 
