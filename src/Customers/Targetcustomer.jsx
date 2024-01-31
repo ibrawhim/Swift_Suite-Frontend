@@ -49,7 +49,7 @@ const Targetcustomer = () => {
         options={options}
         series={series}
         type="radialBar"
-        height={220}
+        height={175}
       />
     </div>
   );

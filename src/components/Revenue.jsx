@@ -21,7 +21,7 @@ const Revenue = () => {
         chart: {
             fontFamily: 'Satoshi, sans-serif',
             type: 'bar',
-            height: 350,
+            height: 300,
             toolbar: {
                 show: false,
             },
@@ -116,7 +116,7 @@ const Revenue = () => {
                         options={options}
                         series={state.series}
                         type="bar"
-                        height={350}
+                        height={200}
                     />
                 </div>
             </div>
