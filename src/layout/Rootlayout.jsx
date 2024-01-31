@@ -17,10 +17,15 @@ import '../layout/Rootlayout.css'
 const Rootlayout = ({children}) => {
     const { sideBarOpen} = useContext(AppContext)
     console.log(sideBarOpen);
+
+
+    let myBg = {
+      backgroundColor:'rgb(209, 250, 229)',
+    }
   return (
     <>
     
-    <div id='screen' className=" duration-200 ease-in-out z-1 " border>
+    <div className="h-28 duration-200 ease-in-out z-1 " style={myBg} >
               
               <Header/>
               <div className="flex max-w-full">

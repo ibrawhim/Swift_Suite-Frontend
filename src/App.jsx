@@ -14,11 +14,7 @@ function App() {
   <>
       <Routes>
 
-        <Route path='/signup'  element={<SignUp/>}/>
-      {/* <Route path='/signup' element={<SignUp/>}/> */}
-
-      <Route path='/signup'  element={<SignUp/>}/>
-
+      <Route path='/'  element={<SignUp/>}/>
       <Route path='layout/*' element={<Rootlayout/>}/>
       <Route path="*" element={<ErrorPage/>}/>
     </Routes>
