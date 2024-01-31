@@ -11,7 +11,7 @@ const Loader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-      navigate('/');
+      navigate('/signup');
     }, 3000);
 
     return () => clearTimeout(timer);
