@@ -8,10 +8,10 @@ const Overview = () => {
   return (
     <section className='rounded-lg p-5 mb-10 h-[100%] lg:h-[100%] bg-white shadow-lg'>
       <div style={{ position: 'relative' }}>
-        <p className='font-bold text-xl lg:ms-[-65%]'>Stats Overview</p>
-        <p className='lg:ms-[-50%] mt-2'>Information about store visits</p>
+        <p className='font-bold text-xl '>Stats Overview</p>
+        <p className=' mt-2'>Information about store visits</p>
         <div style={{ padding: '20px' }}>
-          <h1 className='lg:ms-[-90%] ms-[-70%] mt-5'>Women</h1>
+          <h1 className=' mt-5'>Women</h1>
           <div
             className='lg:w-[430px] md:w-[500px] w-[220px]'
             style={{
@@ -37,7 +37,7 @@ const Overview = () => {
             }}
           ></div>
 
-          <h1 className='lg:ms-[-90%] ms-[-80%] mt-10'>Men</h1>
+          <h1 className='mt-10'>Men</h1>
           <div
             className='lg:w-[430px] md:w-[300px] w-[220px]'
             style={{
@@ -63,7 +63,7 @@ const Overview = () => {
             }}
           ></div>
 
-          <h1 className='lg:ms-[-90%] ms-[-80%] mt-10'>Kids</h1>
+          <h1 className='mt-10'>Kids</h1>
           <div
             className='lg:w-[430px] md:w-[300px] w-[200px]'
             style={{

@@ -15,25 +15,25 @@ const Dashboard = () => {
   return (
     <>
 
-    
-        <div className='grid lg:grid-cols-2 lg:ms-[15%] ms-[-20px] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[90%] w-[110%] lg:mt-10 mt-10 gap-4'>
-          <div>
-            <Revenue />
+    <section className='bg-green-100 h-100vh'>
+    <div className='grid lg:grid-cols-2 lg:ms-[20%] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[80%] w-[100%]  mt-15 gap-4'>
+    <div>
+    <Revenue />
           </div>
 
           <div className='grid rounded-lg border border-stroke bg-white px-5 pb-5 shadow-default sm:px-7.5 lg:grid-cols-2 md:grid-cols-2 grid-cols-2 gap-4'>
             <div>
             <Newcustomer />
               <h3 className='text-center text-sm font-bold'>Current Customers</h3>
-            </div>
-            <div>
+              </div>
+              <div>
               <Newcustomer />
               <h3 className='text-center text-sm font-bold'>New Customers</h3>
             </div>
             <div>
-              <Retargetcustomer />
+            <Retargetcustomer />
               <h3 className='text-center text-sm font-bold'>Retarget Customers</h3>
-            </div>
+              </div>
             <div>
               <Targetcustomer />
               <h3 className='text-center text-sm font-bold'>Target Customers</h3>
@@ -41,15 +41,16 @@ const Dashboard = () => {
           </div>
 
         </div>
-        <div className='grid lg:grid-cols-2 lg:ms-[15%] md:grid-cols-2  ms-[-20px] lg:px-10 px-5 lg:w-[90%] w-[110%] grid-cols-1 p-5 gap-4'>
-          <div>
-            <Topproduct />
+        <div className='grid lg:grid-cols-2 lg:ms-[20%] md:grid-cols-2 lg:px-10 px-5 lg:w-[80%] w-[100%] grid-cols-1 p-5 gap-4'>
+        <div>
+        <Topproduct />
           </div>
           <div>
             <Overview/>
           </div>
         </div>
      
+        </section>
     </>
   );
 };
