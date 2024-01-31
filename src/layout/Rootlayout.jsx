@@ -10,7 +10,7 @@ import Dashboard from '../pages/Dashboard'
 import Allapp from '../pages/Allapp'
 // import Allapp from '../pages/Allapp'
 // import Authentication from '../pages/Authentication'
-
+import '../layout/Rootlayout.css'
 
 
 
@@ -20,7 +20,7 @@ const Rootlayout = ({children}) => {
   return (
     <>
     
-    <div id='screen' className="duration-200 ease-in-out z-1 ">
+    <div id='screen' className=" duration-200 ease-in-out z-1 " border>
               
               <Header/>
               <div className="flex max-w-full">
