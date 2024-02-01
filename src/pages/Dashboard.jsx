@@ -6,6 +6,7 @@ import Retargetcustomer from '../Customers/Retargetcustomer.jsx';
 import Targetcustomer from '../Customers/Targetcustomer.jsx';
 import Overview from '../components/Overview.jsx';
 import Topproduct from '../Customers/Topproduct.jsx';
+import Addvendor from '../vendors/Addvendor.jsx';
 // import Rootlayout from '../layout/Rootlayout.jsx';
 
 
@@ -48,7 +49,10 @@ const Dashboard = () => {
           <div>
             <Overview/>
           </div>
-        </div>
+          </div>
+          <div className='lg:ms-[20%] px-5'>
+          <Addvendor/>
+          </div>
      
         </section>
     </>

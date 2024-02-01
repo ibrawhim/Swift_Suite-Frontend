@@ -4,11 +4,13 @@ import { CiShoppingCart } from 'react-icons/ci';
 import { IoBagHandleOutline } from 'react-icons/io5';
 import { TbBorderNone } from 'react-icons/tb';
 import bag from '../assets/bag.png'
+import puma from '../assets/puma.png'
+
 
 const Topproduct = () => {
   return (
     <section className='bg-white rounded-lg lg:p-4 p-0'>
-      <div className='grid lg:grid-cols-4 md:grid-cols-2  gap-4'>
+      <div className='grid lg:grid-cols-4 md:grid-cols-2 mt-5 gap-4'>
         <div className='bg-green-700 text-center rounded-lg px-2 md:w-full lg:w-[100%] text-white text-[12px]'>
           <p className='flex justify-center items-center'><MdOutlinePersonOutline size={20} /></p>
           <p>Total Visits</p>
@@ -33,7 +35,7 @@ const Topproduct = () => {
 
       </div>
       <div className='mt-10'>
-        <h2 className='text-lg font-medium'>Top Product</h2>
+        <h2 className='text-lg font-medium mt-5'>Top Product</h2>
 
         <div className='flex text-sm bg-gray-300  lg:p-2 py-6 rounded-lg'>
           <p><img src={bag} alt="" /></p>
@@ -64,7 +66,7 @@ const Topproduct = () => {
 
 
         <div className='flex text-sm bg-gray-300 mt-5 lg:p-2 py-6 rounded-lg'>
-        <p><img src={bag} alt="" /></p>
+        <p><img src={puma} alt="" /></p>
         <div>
           <p className='lg:font-medium font-light'>Gucci handbag</p>
           <p className='text-[10px] text-center'>Black-20 orders </p>
