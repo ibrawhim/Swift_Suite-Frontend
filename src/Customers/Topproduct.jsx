@@ -35,7 +35,7 @@ const Topproduct = () => {
 
       </div>
       <div className='mt-10'>
-        <h2 className='text-lg font-medium mt-5'>Top Product</h2>
+        <h2 className='text-lg font-medium px-2 mt-5'>Top Product</h2>
 
         <div className='flex text-sm bg-gray-300  lg:p-2 py-6 rounded-lg'>
           <p><img src={bag} alt="" /></p>
@@ -91,16 +91,7 @@ const Topproduct = () => {
           </div>
         </div>
       </div>
-
-
-        <div>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-        </div>
       </div>
-
     </section>
   );
 };

@@ -16,7 +16,7 @@ const Dashboard = () => {
   return (
     <>
 
-    <section className='bg-green-100 h-100vh'>
+    <section className='bg-blue-100 h-100vh'>
     <div className='grid lg:grid-cols-2 lg:ms-[17%] md:grid-cols-2 grid-cols-1 p-5 lg:px-10 px-5 lg:w-[85%] w-[100%]  mt-15 gap-4'>
     <div>
     <Revenue />
