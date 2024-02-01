@@ -6,7 +6,7 @@ const Overview = () => {
   const kidsPercentage = 20;
 
   return (
-    <section className='rounded-lg p-5 mb-10 h-[100%] lg:h-[100%] bg-white shadow-lg'>
+    <section className='rounded-lg p-5 h-[100%] lg:h-[100%] bg-white shadow-lg'>
       <div style={{ position: 'relative' }}>
         <p className='font-bold text-xl '>Stats Overview</p>
         <p className=' mt-2'>Information about store visits</p>
