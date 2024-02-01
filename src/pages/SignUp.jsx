@@ -15,18 +15,18 @@ const SignUp = () => {
       } else if (field === 'confirm') {
           setConfirmVisible(!confirmVisible);
       }
-  };
+  };  
 
   return (
       <div>
         <div>
         <Navbar/>
         </div>
-        <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'>
+        <section className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 border-4'>
             <div className='px-10'>
                 <img src={signImage} alt=""  className='w-[500px] h-[626px]'/>
             </div>
-            <div className='py-20 px-28 '>
+            <div className='lg:py-20 py-0   lg:px-28 px-14 '>
               <h1 className='text-center font-semibold text-xl'>Create an Account</h1>
               <form action="" className=''>
               <p className='flex my-2 font-semibold text-xl'>Sign Up</p>
