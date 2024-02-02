@@ -21,10 +21,15 @@ const Currentcustomer = () => {
           name: {
             offsetY: -10,
             fontSize: '13px',
+            color: '#ffff00',
+            show: false,
           },
           value: {
-            fontSize: '10px',
+            fontSize: '20px',
             show: true,
+            color: '#000000',
+            fontWeight: 'bold',
+            marginTop:'-20px'
           },
         },
       },
@@ -49,7 +54,7 @@ const Currentcustomer = () => {
         options={options}
         series={series}
         type="radialBar"
-        height={175}
+        height={200}
       />
     </div>
   );

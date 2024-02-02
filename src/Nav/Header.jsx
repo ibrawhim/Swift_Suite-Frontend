@@ -10,17 +10,17 @@ const Header = () => {
     const { toggleSideBar } = useContext(AppContext)
     return (
         <>
-            <div className='fixed top-0 right-0 left-0 lg:ms-[20%] p-5 z-50 shadow-sm bg-white '>
+            <div className='fixed top-0 right-0 left-0 lg:ms-[20%] p-5 px-10 z-50 shadow-sm bg-white '>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center justify-between gap-5'>
                         <div className="lg:hidden cursor-pointer" onClick={() => toggleSideBar()}>
                             <MdMenu size={25} />
                         </div>
                     </div>
-                    <div className='flex items-center justify-between md:gap-10 gap-6'>
-                        <div className='flex items-center md:gap-10 gap-10 lg:ms-0'>
-                            <Searchinput />
-                            <IoSettingsOutline className='lg:ms-[260px]' size={20} />
+                    <div className='flex items-center justify-between md:gap-5'>
+                    <Searchinput />
+                        <div className='flex items-center md:gap-5 gap-5 lg:ms-[-50px]'>
+                            <IoSettingsOutline className='lg:ms-[320px]' size={20} />
                             <VscBell size={20} />
                             <DropdownUser />
                         </div>

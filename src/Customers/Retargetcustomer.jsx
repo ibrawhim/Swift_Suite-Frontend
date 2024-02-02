@@ -21,27 +21,32 @@ const Retargetcustomer = () => {
           name: {
             offsetY: -10,
             fontSize: '13px',
+            color: '#ffff00',
+            show: false,
           },
           value: {
-            fontSize: '10px',
+            fontSize: '20px',
             show: true,
+            color: '#000000',
+            fontWeight: 'bold',
+            marginTop:'-20px'
           },
         },
       },
     },
     fill: {
       type: 'color',
-      colors: ['#089451'],
+      colors: ['#BB8232'],
     },
     stroke: {
       lineCap: 'round',
-      colors: ['#089451'], // Color of the stroke
+      colors: ['#BB8232'], // Color of the stroke
       width: 15, // Adjust this value to control the thickness of the bar
     },
     labels: ['Progress'],
   };
 
-  const series = [95];
+  const series = [30];
 
   return (
     <div>
@@ -49,7 +54,7 @@ const Retargetcustomer = () => {
         options={options}
         series={series}
         type="radialBar"
-        height={175}
+        height={200}
       />
     </div>
   );
