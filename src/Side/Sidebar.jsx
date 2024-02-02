@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 
 // * React icons
 import { IoMdHelpCircleOutline } from "react-icons/io";
-import {  SlSettings } from "react-icons/sl";
+import { SlSettings } from "react-icons/sl";
 import { AiOutlineAppstore } from "react-icons/ai";
 import { LiaSignOutAltSolid } from "react-icons/lia";
 import { BiBorderRight } from "react-icons/bi";
 import { TbReport } from "react-icons/tb";
-import {  NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { MdOutlineInventory2 } from "react-icons/md";
-import {FaRegAddressBook} from 'react-icons/fa'
+import { FaRegAddressBook } from 'react-icons/fa'
 import swift from '../Images/swift.png'
 import { AppContext } from "../context/Dashboard";
 
@@ -81,14 +81,14 @@ const Sidebar = () => {
 
       <motion.div ref={sidebarRef} variants={Nav_animation} initial={{ x: isTablet ? -250 : 0 }} animate={sideBarOpen ? "open" : "closed"} className="shadow-xl md:z-[9] z-[9999] max-w-[16rem]  w-[16rem] fixed top-0 left-0 h-screen">
 
-      <div className="flex items-center gap-2.5 font-medium bg-white border-b py-4  text-white" >
-      <img src={swift} alt="" />
-        
-      </div>
+        <div className="flex items-center gap-2.5 font-medium bg-white border-b py-4  text-white" >
+          <img src={swift} alt="" />
+
+        </div>
 
         <div className="flex flex-col text-4xl bg-white text-black h-full">
           <ul className=" px-2.5 text-[0.9rem] py-5 flex flex-col gap-2  font-serif   dark:scrollbar-track-slate-400  dark:scrollbar-thumb-slate-700  md:h-[78%] h-[75%]">
-          <li>
+            <li>
               <NavLink to={"/layout/home"} className="link flex   gap-8  hover:rounded hover:text-black">
                 <AiOutlineAppstore size={23} className="mt-2 min-w-max" />
                 Dashboard
@@ -131,40 +131,9 @@ const Sidebar = () => {
                 Sign Out
               </NavLink>
             </li>
-            
-
-            {/* {(sidebarOpen || isTablet) && ( */}
-            <div className="border-y py-5 dark:border-slate-600 md:border-slate-300 ">
-              {
-                (sideBarOpen || isTablet) &&
-                <small className="pl-3 text-slate-500 inline-block mb-2">
-                  Product categories
-                </small>
-              }
-            </div>
-
-            <li>
-              <NavLink to={"/settings"} className="link flex gap-8 hover:bg-white hover:rounded hover:text-black">
-                <SlSettings size={23} className="mt-2 min-w-max" />
-                Settings
-              </NavLink>
-            </li>
           </ul>
+        </div>
 
-          {sideBarOpen && (
-            <div className="flex-1 text-sm z-50  max-h-48 my-auto  whitespace-pre   w-full  font-medium  ">
-              <div className="flex border-y dark:border-slate-600 border-slate-300 p-4 items-center justify-between">
-                <div>
-                  <p>Spark</p>
-                  <small>No-cost $0/month</small>
-                </div>
-                <p className="text-teal-500 py-1.5 px-3 text-xs bg-teal-50 rounded-xl">
-                  Upgrade
-                </p>
-              </div>
-            </div>
-          )}</div>
-      
       </motion.div>
 
     </div>
