@@ -11,22 +11,22 @@ const Topproduct = () => {
   return (
     <section className='bg-white rounded-lg lg:p-4 p-0'>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 mt-5 gap-4'>
-        <div className='bg-green-700 text-center rounded-lg px-2 md:w-full lg:w-[100%] text-white text-[12px]'>
+        <div className='bg-green-700 text-center rounded-lg px-2 p-2 md:w-full lg:w-[100%] text-white text-[12px]'>
           <p className='flex justify-center items-center'><MdOutlinePersonOutline size={20} /></p>
           <p>Total Visits</p>
           <p>20,000</p>
         </div>
-        <div className='bg-green-700 text-center rounded-lg md:w-full lg:w-[100%] px-2 text-white text-[12px]'>
+        <div className='bg-green-500 text-center rounded-lg md:w-full lg:w-[100%] px-2 p-2 text-white text-[12px]'>
           <p className='flex justify-center items-center'><CiShoppingCart size={20} /></p>
           <p>Total Sales</p>
           <p>15,000</p>
         </div>
-        <div className='bg-green-700 text-center rounded-lg md:w-full lg:w-[100%] text-white px-2 text-[12px]'>
+        <div className='bg-green-700 text-center rounded-lg md:w-full lg:w-[100%] text-white px-2 p-2 text-[12px]'>
           <p className='flex justify-center items-center'><IoBagHandleOutline size={20} /></p>
           <p>Total Made</p>
           <p>$700,000</p>
         </div>
-        <div className='bg-green-700 text-center rounded-lg md:w-full lg:w-[106%] px-2 text-white text-[12px]'>
+        <div className='bg-green-500 text-center rounded-lg md:w-full lg:w-[106%] px-2 p-2 text-white text-[12px]'>
           <p className='flex justify-center items-center'><TbBorderNone size={20} /></p>
           <p>Orders Completed</p>
           <p>30,900</p>
@@ -34,13 +34,13 @@ const Topproduct = () => {
 
 
       </div>
-      <div className='mt-10'>
-        <h2 className='text-lg font-medium mt-5'>Top Product</h2>
+      <div className='mt-10 pb-10'>
+        <h2 className='text-lg font-medium px-2 mt-5'>Top Product</h2>
 
-        <div className='flex text-sm bg-gray-300  lg:p-2 py-6 rounded-lg'>
+        <div className='flex text-sm bg-gray-300 lg:p-2  py-6 rounded-lg'>
           <p><img src={bag} alt="" /></p>
           <div>
-            <p className='lg:font-medium font-light'>Gucci handbag</p>
+            <p className='lg:font-medium lg:text-sm font-bold text-[10px]'>Gucci handbag</p>
             <p className='text-[10px] text-center'>Black-20 orders </p>
           </div>
 
@@ -68,7 +68,7 @@ const Topproduct = () => {
         <div className='flex text-sm bg-gray-300 mt-5 lg:p-2 py-6 rounded-lg'>
         <p><img src={puma} alt="" /></p>
         <div>
-          <p className='lg:font-medium font-light'>Gucci handbag</p>
+          <p className='lg:font-medium lg:text-sm text-[10px] font-bold'>Gucci handbag</p>
           <p className='text-[10px] text-center'>Black-20 orders </p>
         </div>
 
@@ -91,16 +91,7 @@ const Topproduct = () => {
           </div>
         </div>
       </div>
-
-
-        <div>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-        </div>
       </div>
-
     </section>
   );
 };

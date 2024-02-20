@@ -1,8 +1,6 @@
-/* eslint-disable no-unused-vars */
-
 import { useState } from 'react';
 import ReactApexChart from 'react-apexcharts';
-import { FaCaretDown } from "react-icons/fa";
+
 
 
 const Revenue = () => {
@@ -30,7 +28,6 @@ const Revenue = () => {
             bar: {
                 horizontal: false,
                 columnWidth: '55%',
-                // endingShape: "rounded",
                 borderRadius: 2,
             },
         },
@@ -69,14 +66,10 @@ const Revenue = () => {
             position: 'top',
             horizontalAlign: 'left',
             fontFamily: 'inter',
-
             markers: {
                 radius: 99,
             },
         },
-        // yaxis: {
-        //   title: false,
-        // },
         grid: {
             yaxis: {
                 lines: {
@@ -87,7 +80,6 @@ const Revenue = () => {
         fill: {
             opacity: 1,
         },
-
         tooltip: {
             x: {
                 show: false,
@@ -108,12 +100,12 @@ const Revenue = () => {
             </div>
 
             <div className="mb-2">
-                <div id="chartFour" className="-ml-5">
+                <div className="-ml-5">
                     <ReactApexChart
                         options={options}
                         series={state.series}
                         type="bar"
-                        height={200}
+                        height={248}
                     />
                 </div>
             </div>
